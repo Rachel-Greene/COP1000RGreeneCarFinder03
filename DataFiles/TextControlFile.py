@@ -20,6 +20,10 @@ choice2Message = """
   Please enter the full vehicle name:
   ***********************************
 """
+authorizedVehicle = "is an authorized vehicle"
+
+unauthorizedVehicle = "is not an authorized vehicle, if you recieved this in error please check the spelling and try again."
+
 choice3Message = """ 
   ********************************
   Please enter the full vehicle name you would like to add:
@@ -32,3 +36,4 @@ errorMessage = """
   Sorry, you have entered an invalid input.
   Please try again with the correct input from the provided list.
 """
+
