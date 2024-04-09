@@ -1,6 +1,5 @@
 ## This is the program to run the AutoCountry Vehicle Finder app, version 0.2 ##
-
-## Import Message variables python file ##
+## Import text- based message variables python file ##
 import sys
 
 sys.path.append('DataFiles/')
@@ -38,7 +37,8 @@ def checkVehicleFX(testInputVehicle):
       print(f"{testInputVehicle} {TextControlFile.unauthorizedVehicle}")
 
 
-## ----------------- Run Program, take inputs and process  --------------------- ##
+## ------------------------------------------------------------ ##
+## --------- Run Program, take inputs and process  ------------ ##
 # ActiveProgram = true/false defines the ending condition #
 activeProgram = True
 while activeProgram:
@@ -66,7 +66,7 @@ while activeProgram:
       appendVehicle = input("")
       db.write(appendVehicle)
       db.write("\n")
-      print (f"You have added {appendVehicle} as an authorized vehicle. \n")
+      print (f"\n You have added {appendVehicle} as an authorized vehicle. \n")
   
   ## Input = 4 ##
   if processedInput == 4:

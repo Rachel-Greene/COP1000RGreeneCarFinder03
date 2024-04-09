@@ -12,7 +12,7 @@ welcomeMessage = """
     4. Exit
 """
 choice1Message = """
-  ********************************
+  ***********************************
   The AutoCountry sales manages has authorized the purchase and selling of the following vehicles:
   """
 choice2Message = """
@@ -27,7 +27,7 @@ unauthorizedVehicle = "is not an authorized vehicle, if you recieved this in err
 choice3Message = """ 
   ********************************
   Please enter the full vehicle name you would like to add:
-  
+  *******************************
 """
 
 thankYouMessage = "\nThank you for using AutoCountry Car Finder, good-bye!"
